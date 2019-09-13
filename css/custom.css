@@ -39,22 +39,22 @@ a {
 
 #panel-proven-results {
 	background: linear-gradient(rgba(94, 191, 187, 0.7), rgba(94, 191, 187, 0.7)),
-	url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/panel_proven_results_bg.jpg') center/auto 150% no-repeat;
+	url('../images/اثبت\ جدارته.jpeg') center/auto 150% no-repeat;
 }
 
 #panel-no-strict-dieting {
 	background: linear-gradient(rgba(38, 94, 133, 0.7), rgba(38, 94, 133, 0.7)),
-	url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/panel_no_strict_dieting_bg.jpg') center/auto 150% no-repeat;
+	url('../images/ترك\ الحمية\ الغذائية\ 3.jpg') center/auto 150% no-repeat;
 }
 
 #panel-easy-to-use {
 	background: linear-gradient(rgba(38, 94, 133, 0.7), rgba(38, 94, 133, 0.7)),
-	url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/panel_easy_to_use_bg.jpg') center/auto 150% no-repeat;
+	url('../images/سهولة\ الاستخدام.jpg') center/auto 150% no-repeat;
 }
 
 #panel-keto-for-you {
 	background: linear-gradient(rgba(94, 191, 187, 0.7), rgba(94, 191, 187, 0.7)),
-	url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/panel_keto_for_you_bg.jpg') center/auto 150% no-repeat;
+	url('../images/الحيوية\ والتفاءل.png') center/auto 150% no-repeat;
 }
 
 #panel-bg-confident {
@@ -62,7 +62,7 @@ a {
 }
 
 #panel-bg-be-active {
-	background-image: url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/panel_bg_girl.jpg');
+	background-image: url('../images/احصل\ عليه\ بسعر.jpg');
 }
 
 #panel-what-is-bhb {
