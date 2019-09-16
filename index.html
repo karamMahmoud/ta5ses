@@ -20,7 +20,7 @@
 <body data-gr-c-s-loaded="true" data-offset="111.328" data-spy="scroll" data-target="#page-nav">
     <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="page-nav">
         <div class="container">
-            <a class="navbar-brand" "><img alt=" Keto Weight Loss logo" src="images/logo.png" width="100px"></a>
+            <a class="navbar-brand"><img alt=" Keto Weight Loss logo" src="images/logo.png" width="100px"></a>
             <a class="order-btn font-weight-bold px-4 flex-column" id="order_now" role="button"
                 style="width: 160px; display: none;">
                 <div class="nav-btn_color text-center" style="height:33px;">أكتشف الأن السعر المخفض</div>
@@ -101,7 +101,7 @@
                             <div class="mh-i-icons mh-i-certifications col-8 mt-2 mt-lg-4 mt-xl-5 d-none d-xl-block">
                                 <div class="row align-items-center text-center no-gutters">
                                     <div class="col pr-2">
-                                        <img alt="Made in USA" src="images/icon_made_in_usa.svg">
+                                        <img alt="Made in USA" src="images/stamp.png" style="max-width: 70px;">
                                     </div>
                                     <div class="col pr-2">
                                         <img alt="GMP certified" src="images/icon_gmp.svg">
@@ -121,7 +121,7 @@
                                         <div
                                             class="row align-items-center text-center no-gutters d-flex justify-content-center">
                                             <div class="col-2 col-sm-3 pb-1 pb-sm-0">
-                                                <img class="img-fluid" src="images/icon_made_in_usa.svg">
+                                                <img class="img-fluid"  src="images/stamp.png" style="max-width: 70px;">
                                             </div>
                                             <div class="col-2 col-sm-3 pb-1 pb-sm-0">
                                                 <img class="img-fluid" src="images/icon_gmp.svg">
@@ -593,20 +593,42 @@
                     text-align: center;
                     font-weight: 600;
                 }
+                @media (max-width:768px){
+                .mr-10-md{
+                    margin-top: 10px
+                }
+            }
+                @media (max-width:600px){
+                    .main-card h3{
+                        font-size: 1rem;
+                }
+                .main-card h4{
+                        font-size: .9rem;
+                }
+                .main-card p{
+                    font-size: 11px;
+                }
+                }
     
                 .main-card h4{
                     text-align: center;
                     font-weight: 600;
                 }
     
+                .main-card>div{
+                    padding:11px;
+                    
+                }
+                
                 .main-card{
-                    margin: 10px 20px;
+                    background-color: #509e9e;
+                    /* margin: 10px 20px; */
                     text-align: justify;
                     font-size: 15px;
-                    background-color: #509e9e;
                     color: white;
                     border-radius: 1%;
-                    box-shadow: 1px 6px 13px #1f1616;
+                    background-clip: content-box;
+                    /* box-shadow: 1px 6px 13px #1f1616; */
                 }
             </style>
 
@@ -619,9 +641,12 @@
                                 <h1 class="ps-header-title"><br>! تُرى ما يقوله بعض عملائنا </h1>
                                 <hr class="ps-header-title-line border-black ml-0" style="width: 100%;">
                             </header>
-                            <div class="ps-body text-black">
-                                <div class="row justify-content-center mt-2">
-                                    <div class="col-md-2 main-card">
+                        </article>
+                    </div>
+                    </div>
+                                <div class="row">
+                                    <div class="col-6 col-md-3 main-card">
+                                            <div>
                                         <img src="./images/اثبت جدارته.jpeg" alt="">
                                         <h3>كريم حسني</h3>
                                         <h4></h4>
@@ -633,7 +658,9 @@
                                                 الرياضة بشكل
                                                 طبيعى دون مشقة !</p>
                                     </div>
-                                    <div class="col-md-2 main-card">
+                                    </div>
+                                    <div class="col-6 col-md-3 main-card">
+                                        <div>
                                             <img src="./images/اثبت جدارته.jpeg" alt="">
                                             <h3>كريم حسني</h3>
                                             <h4>قبل 100<span> | </span>بعد 70</h4>
@@ -644,7 +671,9 @@
                                                     كج فى شهر
                                                     واحد فقط!</p>
                                     </div>
-                                    <div class="col-md-2 main-card">
+                                    </div>
+                                    <div class="col-6 col-md-3 mr-10-md main-card">
+                                        <div>
                                             <img src="./images/اثبت جدارته.jpeg" alt="">
                                             <h3>كريم حسني</h3>
                                             <h4>قبل 100<span> | </span>بعد 70</h4>
@@ -653,7 +682,9 @@
                                                     بعدم الثقة بالنفس وأتجنب الخروج الى الشارع حتى قمت بتجربته فقد غير حياتى
                                                     بفقدان 18 كج بسهولة ..شكراً لكم</p>
                                     </div>
-                                    <div class="col-md-2 main-card">
+                                    </div>
+                                    <div class="col-6 col-md-3 mr-10-md main-card">
+                                            <div>
                                             <img src="./images/اثبت جدارته.jpeg" alt="">
                                             <h3>كريم حسني</h3>
                                             <h4>قبل 100<span> | </span>بعد 70</h4>
@@ -661,6 +692,7 @@
                                                     وبدأت اشعر
                                                     بعدم الثقة بالنفس وأتجنب الخروج الى الشارع حتى قمت بتجربته فقد غير حياتى
                                                     بفقدان 18 كج بسهولة ..شكراً لكم</p>
+                                    </div>
                                     </div>
                                 </div>
                                 <!-- <div class="row">
@@ -755,10 +787,7 @@
                                         </blockquote>
                                     </div>
                                 </div> -->
-                            </div>
-                        </article>
-                    </div>
-                </div>
+                           
             </div>
         </section>
         <section class="py-4 py-md-5" id="panel-dont-miss">
