@@ -179,8 +179,8 @@
                         <h2 class="mh-title-1 text-secondary mb-md-3 mb-lg-5">
                             <br>
                             <br></h2>
-                        <a class="btn btn-dark btn-lg btn-shop-now text-uppercase" role="button">أطلبه الأن واكتشف السعر
-                            المخفض >></a>
+                        <!-- <a class="btn btn-dark btn-lg btn-shop-now text-uppercase" role="button">أطلبه الأن واكتشف السعر
+                            المخفض >></a> -->
                         <p class="mh-money-back-guarantee-label mb-0">(مع ضمان استرجاع خلال 30 يوم)</p>
                         <div class="mh-icons mt-md-4 mt-lg-5">
                             <div class="row">
@@ -989,14 +989,14 @@
                                         <input type="text" name="name" id="name" class="cinp  user form-control" required="">
                                     </div>
                                     <div class="form-group input">
-                                        <label class="" for="address">ادخل الهاتف </label>
-                                        <input type="text" name="address" id="address" class="cinp  user form-control"
-                                            required="">
+                                        <label class="" for="number">ادخل الهاتف </label>
+                                        <input type="number" name="number" id="number" class="cinp  phone form-control"
+                                        pattern="[٠-٩0-9]{11}" title="أدخل رقم هاتفك" required="">
                                     </div>
                                     <div class="form-group input">
-                                        <label class="" for="phone">ادخل العنوان</label>
-                                        <input type="number" id="Phone" name="phone" class="cinp  phone form-control"
-                                            pattern="[٠-٩0-9]{11}" title="أدخل رقم هاتفك" required="">
+                                        <label class="" >ادخل العنوان</label>
+                                        <input type="text" id="address" name="address" cclass="cinp  user form-control"
+                                        required="">
                                         <input type="hidden" name="product_slug" value="{{{ product_slug }}}">
                                         <input type="hidden" name="sale_page_slug" value="{{{ sale_page_slug }}}">
                                     </div>
