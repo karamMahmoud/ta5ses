@@ -38,22 +38,22 @@ a {
 }
 
 #panel-proven-results {
-	background: linear-gradient(rgba(94, 191, 187, 0.7), rgba(94, 191, 187, 0.7)),
+	background: linear-gradient(rgba(79, 124, 123, 0.8), rgba(94, 191, 187, 0.8)),
 	url('../images/اثبت\ جدارته.jpeg') center/auto 150% no-repeat;
 }
 
 #panel-no-strict-dieting {
-	background: linear-gradient(rgba(38, 94, 133, 0.7), rgba(38, 94, 133, 0.7)),
+	background: linear-gradient(rgba(38, 94, 133, 0.8), rgba(81, 107, 126, 0.8)),
 	url('../images/ترك\ الحمية\ الغذائية\ 3.jpg') center/auto 150% no-repeat;
 }
 
 #panel-easy-to-use {
-	background: linear-gradient(rgba(38, 94, 133, 0.7), rgba(38, 94, 133, 0.7)),
+	background: linear-gradient(rgba(38, 94, 133, 0.8), rgba(38, 94, 133, 0.8)),
 	url('../images/سهولة\ الاستخدام.jpg') center/auto 150% no-repeat;
 }
 
 #panel-keto-for-you {
-	background: linear-gradient(rgba(94, 191, 187, 0.7), rgba(94, 191, 187, 0.7)),
+	background: linear-gradient(rgba(94, 191, 187, 0.8), rgba(94, 191, 187, 0.8)),
 	url('../images/الحيوية\ والتفاءل.png') center/auto 150% no-repeat;
 }
 
