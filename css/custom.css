@@ -127,9 +127,13 @@ a {
 
 @media (max-width: 413px) {
 	#main-header {
-		background: url('./../images/log.png') 31px 28px/auto 27% no-repeat,
+		background: url('./../images/log.png') -60px 200px/auto 34% no-repeat,
 		url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 	}
+
+	#page-nav + * {
+		margin-top: 10px !important;
+	    }
 }
 
 @media (max-width: 374px) {

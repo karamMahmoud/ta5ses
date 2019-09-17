@@ -880,6 +880,7 @@ section .color-box .fas {
 
 	.mh-list-holder{
 		padding-right: 0;
+		margin-right: 8px;
 	}
 
 	#main-header .mh-part-2 .mh-list{
@@ -960,6 +961,7 @@ section .color-box .fas {
 
 	.mh-list-holder{
 		padding-right: 0;
+		margin-right: 8px;
 	}
 
 	#main-header .mh-part-2 .mh-list{
