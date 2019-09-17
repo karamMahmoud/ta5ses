@@ -1,5 +1,5 @@
 #main-header {
-	background: url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/KWL_BlackBottle.png') center/auto 80% no-repeat,
+	background: url('./../images/log.png') center/auto 80% no-repeat,
 	url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 }
 
@@ -92,14 +92,14 @@ a {
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	#main-header {
-		background: url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/KWL_BlackBottle.png') center/auto 74% no-repeat,
+		background: url('./../images/log.png') center/auto 74% no-repeat,
 		url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	#main-header {
-		background: url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/KWL_BlackBottle.png') center/auto 77% no-repeat,
+		background: url('./../images/log.png') center/auto 77% no-repeat,
 		url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 	}
 }
@@ -107,48 +107,48 @@ a {
 
 @media (min-width: 576px) and (max-width: 767px) {
 	#main-header .mh-part-1:before {
-		background-image: url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/KWL_BlackBottle.png');
+		background-image: url('./../images/log.png');
 	}
 }
 
 @media (max-width: 575px) {
 	#main-header {
-		background: url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/KWL_BlackBottle.png') 56px 60px/auto 28% no-repeat,
+		background: url('./../images/log.png') 56px 60px/auto 28% no-repeat,
 		url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 	}
 }
 
 @media (max-width: 444px) {
 	#main-header {
-		background: url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/KWL_BlackBottle.png') 8px 31px/auto 29% no-repeat,
+		background: url('./../images/log.png') 8px 31px/auto 29% no-repeat,
 		url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 	}
 }
 
 @media (max-width: 413px) {
 	#main-header {
-		background: url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/KWL_BlackBottle.png') 31px 28px/auto 27% no-repeat,
+		background: url('./../images/log.png') 31px 28px/auto 27% no-repeat,
 		url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 	}
 }
 
 @media (max-width: 374px) {
 	#main-header {
-		background: url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/KWL_BlackBottle.png') 9px 25px/auto 29% no-repeat,
+		background: url('./../images/log.png') 9px 25px/auto 29% no-repeat,
 		url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 	}
 }
 
 @media (max-width: 360px) {
 	#main-header {
-		background: url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/KWL_BlackBottle.png') 39px 21px/auto 29% no-repeat,
+		background: url('./../images/log.png') 39px 21px/auto 29% no-repeat,
 		url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 	}
 }
 
 @media (max-width: 340px) {
 	#main-header {
-		background: url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/KWL_BlackBottle.png') 20px 21px/auto 29% no-repeat,
+		background: url('./../images/log.png') 20px 21px/auto 29% no-repeat,
 		url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 	}
 }
