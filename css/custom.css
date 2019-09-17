@@ -113,14 +113,14 @@ a {
 
 @media (max-width: 575px) {
 	#main-header {
-		background: url('./../images/log.png') 56px 60px/auto 28% no-repeat,
+		background: url('./../images/log.png') -122px 260px/auto 42% no-repeat,
 		url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 	}
 }
 
 @media (max-width: 444px) {
 	#main-header {
-		background: url('./../images/log.png') 8px 31px/auto 29% no-repeat,
+		background: url('./../images/log.png') -98px 244px/auto 36% no-repeat,
 		url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 	}
 }
@@ -138,21 +138,21 @@ a {
 
 @media (max-width: 374px) {
 	#main-header {
-		background: url('./../images/log.png') 9px 25px/auto 29% no-repeat,
+		background: url('./../images/log.png') -98px 200px/auto 39% no-repeat,
 		url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 	}
 }
 
 @media (max-width: 360px) {
 	#main-header {
-		background: url('./../images/log.png') 39px 21px/auto 29% no-repeat,
+		background: url('./../images/log.png') -94px 200px/auto 36% no-repeat,
 		url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 	}
 }
 
 @media (max-width: 340px) {
 	#main-header {
-		background: url('./../images/log.png') 20px 21px/auto 29% no-repeat,
+		background: url('./../images/log.png') -82px 200px/auto 33% no-repeat,
 		url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 	}
 }
