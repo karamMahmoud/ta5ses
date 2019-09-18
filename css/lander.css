@@ -44,7 +44,7 @@ body{
 }
 
 #page-nav + *{
-	margin-top: 110.33px; /* height of the navbar */
+	margin-top: 30px; /* height of the navbar */
 }
 
 .panel-section{
@@ -249,8 +249,7 @@ h2.ps-header-title{
 	font-size: 2.6rem;
 	line-height: 1;
 }
-
-#main-header .mh-part-2 .mh-list{
+.mh-list{
 	list-style: none;
 	font-family: 'Gilroy-Bold';
 	font-weight: bold;
@@ -258,10 +257,13 @@ h2.ps-header-title{
 	line-height: 1;
 }
 
-#main-header .mh-part-2 .mh-list li{
+.mh-list li{
 	color: #707070;
+	position: relative;
+    padding: 10px 20px 10px 0;
+    line-height: 1.5;
 }
-#main-header .mh-part-2 .mh-list li::before {
+.mh-list li::before {
 	content: '';
 	color: #707070;
 	display: inline-block;
@@ -274,16 +276,19 @@ h2.ps-header-title{
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
+	position: absolute;
+    right: -35px;
+    top: 5px;
 }
 
-#main-header .mh-icons .mh-i-icons{
+.mh-i-icons{
 	max-width: 100%;
 	font-weight: bold;
 	line-height: 1.1;
 	color: var(--main-color);
 }
 
-#main-header .mh-icons .mh-i-icons img{
+.mh-i-icons img{
 	width: 90%;
 	height: auto;
 }
@@ -562,13 +567,13 @@ section .color-box .fas {
 		max-width: 100%;
 	}*/
 
-	#main-header .mh-part-1 .mh-title-1,
-	#main-header .mh-part-2 .mh-title-2{
+	.mh-title-1,
+	.mh-title-2{
 		font-size: 2.4rem;
 		line-height: 1.1;
 	}
 
-	#main-header .mh-part-2 .mh-list{
+	.mh-list{
 		font-size: 1.3rem;
 		line-height: 1.1;
 	}
@@ -591,29 +596,29 @@ section .color-box .fas {
 			max-width: 100%;
 		}*/
 
-	#main-header .mh-part-1 .mh-title-1{
+	.mh-title-1{
 		font-size: 2rem;
 		line-height: 1;
 	}
 
-	#main-header .mh-part-2 .mh-title-2{
+	.mh-title-2{
 		font-size: 2rem;
 		line-height: 1.1;
 	}
 
-	#main-header .mh-part-2 .mh-list{
+	.mh-list{
 		font-size: 1.26rem;
 		line-height: 1.4;
 	}
 
-	#main-header .mh-part-1 .mh-money-back-guarantee-label{
+	.mh-money-back-guarantee-label{
 		font-size: 0.96rem;
 	}
 
-	#main-header .mh-part-2 .mh-list li::before {
+	/* .mh-list li::before {
 		height: 1.26rem;
 		width: 1.26rem;
-	}
+	} */
 
 	#main-header .mh-icons .mh-i-icons{
 		padding-left: 0;
@@ -671,7 +676,7 @@ section .color-box .fas {
 
 
 @media (max-width: 767px) {
-	#main-header .mh-part-2 .mh-list{
+	.mh-list{
 		font-size: 1.3rem;
 		line-height: 1.5;
 		display: inline-block;
@@ -680,11 +685,11 @@ section .color-box .fas {
 		padding-inline-start: 5px;
 	}
 
-	#main-header .mh-part-2 .mh-list li::before {
+	/* .mh-list li::before {
 		height: 1.3rem;
 		width: 1.3rem;
 		margin-right: 0.7rem;
-	}
+	} */
 		section .color-box {
 			font-size: 1.4rem;
 		}
@@ -737,21 +742,27 @@ section .color-box .fas {
 		margin-top: 20px;
 	}
 
-	#main-header .mh-part-1 .btn-shop-now{
+	.mh-part-1 .btn-shop-now{
 		margin-bottom: 0.36rem;
 		font-size: 1.3rem;
 	}
 
-	#main-header .mh-part-1 .mh-money-back-guarantee-label{
+	.mh-part-1 .mh-money-back-guarantee-label{
 		font-size: 0.9rem;
 	}
 
-	#main-header .mh-title-2{
-		font-size: 2rem;
+	.mh-title-2{
+		font-size: 1rem;
+		font-weight: bold;
 		line-height: 1.2;
 	}
+	
+	.mh-list li{
+		padding: 18px 30px 10px 0 !important;
+		font-size: 14px;
+	}
 
-	#main-header .mh-part-2 .mh-list{
+	.mh-part-2 .mh-list{
 		font-size: 1.2rem;
 		line-height: 1.4;
 		display: inline-block;
@@ -760,7 +771,7 @@ section .color-box .fas {
 		padding-inline-start: 0px;
 	}
 
-	#main-header .mh-part-2 .mh-list li::before {
+	.mh-part-2 .mh-list li::before {
 		height: 2.3rem;
 		width: 2.3rem;
 		margin-right: 0.5rem;
@@ -770,12 +781,12 @@ section .color-box .fas {
 		padding-left: 0;
 	}*/
 
-	#main-header .mh-icons-smallest{
+	.mh-icons-smallest{
 		margin-top: auto;
 		margin-bottom: auto;
 	}
 
-	#main-header .mh-icons-smallest .mh-i-certifications img{
+	.mh-icons-smallest .mh-i-certifications img{
 		max-width: 52px;
 	}
 
@@ -883,13 +894,13 @@ section .color-box .fas {
 		margin-right: 8px;
 	}
 
-	#main-header .mh-part-2 .mh-list{
+	.mh-part-2 .mh-list{
 		/* margin-top: 3.5rem !important; */
 		font-size: 1.1rem;
 		line-height: 1.4;
 	}
 
-	#main-header .mh-part-2 .mh-list li::before {
+	.mh-part-2 .mh-list li::before {
 		height: 2rem;
 		width: 2rem;
 	}
@@ -964,13 +975,13 @@ section .color-box .fas {
 		margin-right: 8px;
 	}
 
-	#main-header .mh-part-2 .mh-list{
+	.mh-part-2 .mh-list{
 		margin-top: .5rem !important;
 		font-size: 1.1rem;
 		line-height: 1.4;
 	}
 
-	#main-header .mh-part-2 .mh-list li::before {
+	.mh-part-2 .mh-list li::before {
 		height: 2rem;
 		width: 2rem;
 		margin-right: 0.4rem;

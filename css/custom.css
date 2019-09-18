@@ -3,6 +3,10 @@
 	url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 }
 
+.ps-header-title{
+	line-height: 1.1 !important;
+}
+
 a {
 	color: white !important;
 }
@@ -13,23 +17,23 @@ a {
 }
 }
 
-#main-header .mh-part-2 .mh-list li.list-icon-feature-belly::before {
+li.list-icon-feature-belly::before {
 	background-image: url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/icon_feature_belly.svg');
 }
 
-#main-header .mh-part-2 .mh-list li.list-icon-feature-apple::before {
+.mh-list li.list-icon-feature-apple::before {
 	background-image: url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/icon_feature_apple.svg');
 }
 
-#main-header .mh-part-2 .mh-list li.list-icon-feature-man::before {
+.mh-list li.list-icon-feature-man::before {
 	background-image: url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/icon_feature_man.svg');
 }
 
-#main-header .mh-part-2 .mh-list li.list-icon-feature-pill-bottle::before {
+.mh-list li.list-icon-feature-pill-bottle::before {
 	background-image: url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/icon_feature_pill_bottle.svg');
 }
 
-#main-header .mh-part-2 .mh-list li.list-icon-feature-face-hands::before {
+.mh-list li.list-icon-feature-face-hands::before {
 	background-image: url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/icon_feature_face_hands.svg');
 }
 
