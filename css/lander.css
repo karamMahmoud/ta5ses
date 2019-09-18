@@ -255,6 +255,7 @@ h2.ps-header-title{
 	font-weight: bold;
 	font-size: 1.2rem;
 	line-height: 1;
+	margin-right: 15px;
 }
 
 .mh-list li{
@@ -620,7 +621,7 @@ section .color-box .fas {
 		width: 1.26rem;
 	} */
 
-	#main-header .mh-icons .mh-i-icons{
+	.mh-icons .mh-i-icons{
 		padding-left: 0;
 		padding-right: 0;
 	}
