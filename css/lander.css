@@ -720,7 +720,9 @@ section .color-box .fas {
 		}
 
 }
-
+.pr-0, .px-0{
+	padding: unset !important; 	
+}
 /*----------------------------------------------------------------------/**/
 @media (max-width: 575px) {
 	#main-header .mh-part-1{
@@ -759,8 +761,8 @@ section .color-box .fas {
 	}
 	
 	.mh-list li{
-		padding: 18px 30px 10px 0 !important;
-		font-size: 14px;
+		padding: 16px 30px 10px 0 !important;
+		font-size: 18px;
 	}
 
 	.mh-part-2 .mh-list{
