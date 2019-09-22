@@ -3,8 +3,29 @@
 	url('https://d3ok9e5g4qczz5.cloudfront.net/assets/img/page/lander/bg.png') center/auto 50% no-repeat;
 }
 
+.numberCircle {
+	border-radius: 50%;
+    behavior: url(PIE.htc);
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: yellow;
+    /* border: 2px solid #666; */
+    color: #666;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+    padding: 0 !important;
+    margin: auto;
+    margin-top: 10px;
+    color: red;
+  }
+
 .ps-header-title{
 	line-height: 1.1 !important;
+}
+
+.usageImg{
+	max-width: 100%;
 }
 
 a {
